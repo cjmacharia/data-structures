@@ -38,4 +38,3 @@ var searchInsert = function(nums, target) {
   return left
  }
 
-
