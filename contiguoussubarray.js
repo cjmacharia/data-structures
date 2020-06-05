@@ -10,6 +10,8 @@
 // new total = 1
 
 
+//kadenes algorithim
+
 const contigous = (arr) => {
   let maxCurrentTotal = arr[0]
   let highestglobal = arr[0]
