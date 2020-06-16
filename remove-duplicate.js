@@ -6,7 +6,7 @@ var removeDuplicates = function(nums) {
   let current = 0
   for (let i =1; i<nums.length; i++) {
       if(nums[current] !== nums[i]) {
-        finalLength +=1
+        finalLength +=1  // if the current is not equal to next , then next is a new number add length
         nums.splice(current+1, 1, nums[i])
         current = nums.indexOf(nums[i])
       } 

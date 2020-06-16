@@ -1,0 +1,9 @@
+its a careful bruteforce
+subproblems and reuse the subproblems
+memoization
+bottom up approach
+
+fib = {}
+for k in range (k)
+
+
